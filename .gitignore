@@ -1,0 +1,10 @@
+.classpath
+.dockerignore
+.github
+.idea
+.project
+.settings
+.vscode
+logs
+target
+*.iml

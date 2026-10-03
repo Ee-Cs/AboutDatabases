@@ -1,0 +1,8 @@
+@echo off
+set JAVA_HOME=C:\PROGRA~1\JAVA\JDK-25
+set JVM_ARGS=--enable-native-access=ALL-UNNAMED
+set JAR_FILE=target\AboutDatabases.jar
+set MAIN_CLASS=kp.web.httpserver.WebServerLauncher
+cd ..
+%JAVA_HOME%\bin\java %JVM_ARGS% -cp %JAR_FILE% %MAIN_CLASS%
+::pause
